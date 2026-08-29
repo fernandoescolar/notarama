@@ -1,0 +1,19 @@
+/notarama
+/data/
+*.db
+*.db-wal
+*.db-shm
+
+# Go
+/dist/
+
+# Frontend build output embedded by the backend — built by `npm run build`
+# or the Docker build; not checked into git.
+/internal/web/dist/*
+!/internal/web/dist/.gitkeep
+
+# Frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/dev-dist/
+/frontend/.vite/
